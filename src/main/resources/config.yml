@@ -1,0 +1,27 @@
+Settings:
+  time: 3 #In secondi
+  # Leave the final space
+  prefix: "&#cf6c00[&#d47304S&#d97a07t&#dd800ba&#e2870fm&#e78e13p&#ec9516a&#f19c1an&#f5a21et&#faa921e&#ffb025] "
+  Item:
+    type: PURPUR_STAIRS
+    name: "&7Stampante"
+    custom-model-data: 1
+    lore:
+      - "§8┃ §7Usala per stampare libri."
+
+Messages: # Use %prefix% to include the prefix in messages
+  Errors:
+    item-no-found: "%prefix% &cItem non valido."
+    no-permission: "%prefix% &cNon hai abbastanza permessi!"
+  reload-true: "%prefix% &aFile di configurazione ricaricato con successo!"
+  on-print: "%prefix% &eStai stampando il libro aspetta qualche secondo..."
+  print-true: "%prefix% &aLibro stampato con successo!"
+  give-true: "%prefix% &aStampante givvata con successo!"
+  help-message:
+    - "&7Comand disponibili:"
+    - "&6/stampante give"
+    - "&6/stampante reload"
+
+# Permission
+# printer.give
+# printer.use

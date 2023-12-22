@@ -1,0 +1,9 @@
+name: IPrinter
+version: '${project.version}'
+main: it.impo.istampante.IStampante
+api-version: '1.16'
+author: zImpoo_
+commands:
+  printer:
+    aliases:
+      - stampante
