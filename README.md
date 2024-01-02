@@ -1,2 +1,2 @@
 # IPrinter
-Spigot plugin to have a printer on your server.
+Simple spigot plugin that allows you to have a printer in your minecraft server.
